@@ -2,7 +2,7 @@
   "imports": {
     "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
     "@moosecodes/root-config": "https://moosecodes.com/moosecodes-root-config.js",
-    "@moosecodes/mc-primary-nav-ui": "https://moosecodes.com/mc-primary-nav-ui/js/app.js",
-    "@moosecodes/mc-styleguide": "https://moosecodes.com/mc-styleguide/moosecodes-mc-styleguide.js"
+    "@moosecodes/mc-primary-nav-ui": "https://moosecodes.com/mc-primary-nav-ui/dist/js/app.js",
+    "@moosecodes/mc-styleguide": "https://moosecodes.com/mc-styleguide/dist/js/moosecodes-mc-styleguide.js"
   }
 }
