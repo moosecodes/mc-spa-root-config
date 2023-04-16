@@ -44,22 +44,20 @@
   </script>
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script">
 
-  <% if (!isLocal) { %>
-  <!-- Add your organization's prod import map URL to this script's src  -->
-  <script type="systemjs-importmap" src="//moosecodes.com/importmap.json"></script>
-  <% } %>
-
   <% if (isLocal) { %>
   <script type="systemjs-importmap">
     {
       "imports": {
         "@moosecodes/root-config": "//localhost:9000/moosecodes-root-config.js",
-        "@moosecodes/mc-primary-nav-ui": "//localhost:8081/js/app.js",
-        "@moosecodes/mc-news-ui": "//localhost:8080/js/app.js",
+        "@moosecodes/mc-primary-nav-ui": "//moosecodes.com/mc-primary-nav-ui/dist/js/app.js",
+        "@moosecodes/mc-news-ui": "//moosecodes.com/mc-news-ui/dist/js/app.js",
         "@moosecodes/mc-styleguide": "//moosecodes.com/mc-styleguide/dist/moosecodes-mc-styleguide.js"
       }
     }
   </script>
+  <% } else  { %>
+  <!-- Add your organization's prod import map URL to this script's src  -->
+  <script type="systemjs-importmap" src="//moosecodes.com/importmap.json"></script>
   <% } %>
 
   <!--
