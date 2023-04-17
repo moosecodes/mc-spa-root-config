@@ -4,6 +4,7 @@
     "@moosecodes/root-config": "https://moosecodes.com/moosecodes-root-config.js",
     "@moosecodes/mc-primary-nav-ui": "https://moosecodes.com/mc-primary-nav-ui/dist/js/app.js",
     "@moosecodes/mc-news-ui": "https://moosecodes.com/mc-news-ui/dist/js/app.js",
+    "@moosecodes/mc-movies-ui": "https://moosecodes.com/mc-movies-ui/dist/js/app.js",
     "@moosecodes/mc-styleguide": "https://moosecodes.com/moosecodes-mc-styleguide.js"
   }
 }
