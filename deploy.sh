@@ -4,4 +4,4 @@ echo "---> ROOT CONFIG" && echo "" && cd /var/www/mc-spa-root-config && pwd && g
 echo "---> STYLEGUIDE" && echo "" && cd /var/www/html/mc-styleguide && pwd && git pull && npm ci && npm run build
 echo "---> NEWS UI" && echo "" && cd /var/www/html/mc-news-ui && pwd && git pull && npm ci && npm run build
 echo "---> PRIMARY NAV UI" && echo "" && cd /var/www/html/mc-primary-nav-ui && pwd && git pull && npm ci && npm run build
-echo "--> MOVIES UI" && echo "" && cd /var/www/html/mc-movies-ui && pwd && git pull && npm ci && npm run build
+echo "--> WEATHER UI" && echo "" && cd /var/www/html/mc-weather-ui && pwd && git pull && npm ci && npm run build
