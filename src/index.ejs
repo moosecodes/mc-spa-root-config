@@ -34,11 +34,15 @@
   <script type="systemjs-importmap">
     {
       "imports": {
+        "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js",
+        "vue-router": "https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.min.js",
+        "vuetify": "//cdn.jsdelivr.net/npm/vuetify@3.1.14/dist/vuetify.min.js",
+        "vuetify-css": "//cdn.jsdelivr.net/npm/vuetify@3.1.14/dist/vuetify.min.css",
         "single-spa": "//cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
         "@moosecodes/root-config": "//moosecodes.com/moosecodes-root-config.js",
         "@moosecodes/mc-primary-nav-ui": "//moosecodes.com/mc-primary-nav-ui/dist/js/app.js",
         "@moosecodes/mc-news-ui": "//moosecodes.com/mc-news-ui/dist/js/app.js",
-        "@moosecodes/mc-movies-ui": "//moosecodes.com/mc-movies-ui/dist/js/app.js",
+        "@moosecodes/mc-weather-ui": "//moosecodes.com/mc-weather-ui/dist/js/app.js",
         "@moosecodes/mc-styleguide": "//moosecodes.com/mc-styleguide/dist/moosecodes-mc-styleguide.js"
       }
     }
@@ -49,17 +53,21 @@
   <script type="systemjs-importmap">
     {
       "imports": {
+        "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js",
+        "vue-router": "https://cdn.jsdelivr.net/npm/vue-router@3.1.6/dist/vue-router.min.js",
+        "vuetify": "//cdn.jsdelivr.net/npm/vuetify@3.1.14/dist/vuetify.min.js",
+        "vuetify-css": "//cdn.jsdelivr.net/npm/vuetify@3.1.14/dist/vuetify.min.css",
         "@moosecodes/root-config": "//localhost:9000/moosecodes-root-config.js",
         "@moosecodes/mc-primary-nav-ui": "//moosecodes.com/mc-primary-nav-ui/dist/js/app.js",
         "@moosecodes/mc-news-ui": "//moosecodes.com/mc-news-ui/dist/js/app.js",
-        "@moosecodes/mc-movies-ui": "//moosecodes.com/mc-movies-ui/dist/js/app.js",
+        "@moosecodes/mc-weather-ui": "//moosecodes.com/mc-weather-ui/dist/js/app.js",
         "@moosecodes/mc-styleguide": "//moosecodes.com/mc-styleguide/dist/moosecodes-mc-styleguide.js"
       }
     }
   </script>
   <% } else  { %>
   <!-- Add your organization's prod import map URL to this script's src  -->
-  <script type="systemjs-importmap" src="//moosecodes.com/importmap.json"></script>
+<!--   <script type="systemjs-importmap" src="//moosecodes.com/importmap.json"></script> -->
   <% } %>
 
   <!--

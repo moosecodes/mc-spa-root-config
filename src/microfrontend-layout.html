@@ -20,13 +20,15 @@
   <main>
     <route default>
       <div class="mc-layout-container">
-        <application name="@moosecodes/mc-primary-nav-ui"></application>
-        <application name="@moosecodes/mc-movies-ui"></application>
-        <application name="@moosecodes/mc-news-ui"></application>
-<!--        <application name="@moosecodes/mc-weather-ui"></application>-->
-<!--        <application name="@moosecodes/mc-home-ui"></application>-->
+        <div>
+          <application class="mc-layout__application" name="@moosecodes/mc-primary-nav-ui"></application>
+        </div>
+        <div>
+          <application class="mc-layout__application" name="@moosecodes/mc-weather-ui"></application>
+          <application class="mc-layout__application" name="@moosecodes/mc-news-ui"></application>
+          <!--        <application name="@moosecodes/mc-settings-ui"></application>-->
+        </div>
       </div>
-
     </route>
   </main>
 </single-spa-router>
